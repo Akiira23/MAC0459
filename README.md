@@ -12,7 +12,7 @@ A. Cerdeira, F. Almeida, T. Matos and J. Reis, Viticulture Commission of the Vin
 
 __Data Set Information__:
 
-The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult: [Web Link] or the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.). 
+The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult: [Web Link](http://www.vinhoverde.pt/en/) or the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.). 
 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are munch more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods. 
 
@@ -34,3 +34,19 @@ Input variables (based on physicochemical tests): <br>
 11 - alcohol <br>
 Output variable (based on sensory data): <br>
 12 - quality (score between 0 and 10)<br>
+
+__Relevant Papers__:
+
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. 
+In Decision Support Systems, Elsevier, 47(4):547-553, 2009. 
+
+Available at: [Web Link](https://www.sciencedirect.com/science/article/pii/S0167923609001377?via%3Dihub) 
+
+
+
+__Citation Request__:
+
+Please include this citation if you plan to use this database: 
+
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
